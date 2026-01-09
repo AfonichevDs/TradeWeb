@@ -1,0 +1,288 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}|TradeWeb.Tests\\TradeWeb.Tests.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.tests\\tradeenrichmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}|TradeWeb.Tests\\TradeWeb.Tests.csproj|solutionrelative:tradeweb.tests\\tradeenrichmentservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\infrastracture\\datevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\infrastracture\\datevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\infrastracture\\csvlinereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\infrastracture\\csvlinereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}|TradeWeb.Tests\\TradeWeb.Tests.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.tests\\listloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}|TradeWeb.Tests\\TradeWeb.Tests.csproj|solutionrelative:tradeweb.tests\\listloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\infrastracture\\missingmappingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\infrastracture\\missingmappingtracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\options\\productcatalogoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\options\\productcatalogoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\services\\itradeenrichmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\services\\itradeenrichmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\infrastracture\\csvescaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\infrastracture\\csvescaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\controllers\\tradeenrichmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\controllers\\tradeenrichmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\catalog\\productcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\catalog\\productcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\models\\tradefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\models\\tradefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\catalog\\iproductcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\catalog\\iproductcatalog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|c:\\users\\afoni\\source\\repos\\tradeweb\\tradeweb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}|TradeWeb.API\\TradeWeb.API.csproj|solutionrelative:tradeweb.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 220,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListLoggerProvider.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.Tests\\ListLoggerProvider.cs",
+              "RelativeDocumentMoniker": "TradeWeb.Tests\\ListLoggerProvider.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.Tests\\ListLoggerProvider.cs",
+              "RelativeToolTip": "TradeWeb.Tests\\ListLoggerProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:14:35.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TradeEnrichmentServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.Tests\\TradeEnrichmentServiceTests.cs",
+              "RelativeDocumentMoniker": "TradeWeb.Tests\\TradeEnrichmentServiceTests.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.Tests\\TradeEnrichmentServiceTests.cs",
+              "RelativeToolTip": "TradeWeb.Tests\\TradeEnrichmentServiceTests.cs",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAkwEgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:02:31.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductCatalogOptions.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Options\\ProductCatalogOptions.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Options\\ProductCatalogOptions.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Options\\ProductCatalogOptions.cs",
+              "RelativeToolTip": "TradeWeb.API\\Options\\ProductCatalogOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:35:00.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CsvLineReader.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\CsvLineReader.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Infrastracture\\CsvLineReader.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\CsvLineReader.cs",
+              "RelativeToolTip": "TradeWeb.API\\Infrastracture\\CsvLineReader.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAYwCcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T19:32:00.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CsvEscaper.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\CsvEscaper.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Infrastracture\\CsvEscaper.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\CsvEscaper.cs",
+              "RelativeToolTip": "TradeWeb.API\\Infrastracture\\CsvEscaper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T19:22:37.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\DateValidator.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Infrastracture\\DateValidator.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\DateValidator.cs",
+              "RelativeToolTip": "TradeWeb.API\\Infrastracture\\DateValidator.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T19:25:27.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MissingMappingTracker.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\MissingMappingTracker.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Infrastracture\\MissingMappingTracker.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Infrastracture\\MissingMappingTracker.cs",
+              "RelativeToolTip": "TradeWeb.API\\Infrastracture\\MissingMappingTracker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T19:27:24.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITradeEnrichmentService.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Services\\ITradeEnrichmentService.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Services\\ITradeEnrichmentService.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Services\\ITradeEnrichmentService.cs",
+              "RelativeToolTip": "TradeWeb.API\\Services\\ITradeEnrichmentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:35:02.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TradeEnrichmentController.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Controllers\\TradeEnrichmentController.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Controllers\\TradeEnrichmentController.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Controllers\\TradeEnrichmentController.cs",
+              "RelativeToolTip": "TradeWeb.API\\Controllers\\TradeEnrichmentController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA1wB0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T20:03:50.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Catalog\\ProductCatalog.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Catalog\\ProductCatalog.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Catalog\\ProductCatalog.cs",
+              "RelativeToolTip": "TradeWeb.API\\Catalog\\ProductCatalog.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T20:04:26.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TradeFields.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Models\\TradeFields.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Models\\TradeFields.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Models\\TradeFields.cs",
+              "RelativeToolTip": "TradeWeb.API\\Models\\TradeFields.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T09:24:58.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IProductCatalog.cs",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Catalog\\IProductCatalog.cs",
+              "RelativeDocumentMoniker": "TradeWeb.API\\Catalog\\IProductCatalog.cs",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\Catalog\\IProductCatalog.cs",
+              "RelativeToolTip": "TradeWeb.API\\Catalog\\IProductCatalog.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T19:15:05.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TradeWeb.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\afoni\\source\\repos\\TradeWeb\\TradeWeb.API\\appsettings.json",
+              "RelativeToolTip": "TradeWeb.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T19:57:10.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
