@@ -1,5 +1,4 @@
-﻿namespace TradeWeb.API.Models;
-
+﻿namespace TradeWeb.Infrastructure.Helpers;
 public record TradeFields(
     int DateStart, int DateLen,
     int ProductIdStart, int ProductIdLen,

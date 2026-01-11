@@ -1,8 +1,5 @@
-using Microsoft.Extensions.Options;
-using TradeWeb.API.Catalog;
-using TradeWeb.API.Infrastracture;
-using TradeWeb.API.Options;
-using TradeWeb.API.Services;
+using TradeWeb.Application.Commands.EnrichTrade;
+using TradeWeb.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,24 +7,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddOptions<ProductCatalogOptions>()
-    .Bind(builder.Configuration.GetSection(ProductCatalogOptions.SectionName))
-    .Validate(o => !string.IsNullOrWhiteSpace(o.ProductCsvPath), "ProductCsvPath is required")
-    .ValidateOnStart();
+builder.Services.AddMediatR(cfg =>
+    cfg.RegisterServicesFromAssemblyContaining<EnrichTradeCommand>());
 
-builder.Services.AddSingleton<IProductCatalog>(sp =>
-{
-    var opt = sp.GetRequiredService<IOptions<ProductCatalogOptions>>().Value;
-    var logger = sp.GetRequiredService<ILogger<ProductCatalog>>();
-    var env = sp.GetRequiredService<IHostEnvironment>();
-
-    var fullPath = Path.GetFullPath(Path.Combine(env.ContentRootPath, opt.ProductCsvPath));
-
-    return ProductCatalog.LoadFromCsv(fullPath, logger);
-});
-
-builder.Services.AddSingleton<MissingMappingTracker>();
-builder.Services.AddScoped<ITradeEnrichmentService, TradeEnrichmentService>();
+// Infrastructure registrations
+builder.Services.AddInfrastructure(builder.Configuration);
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

@@ -1,7 +1,7 @@
-﻿using System.Runtime.CompilerServices;
+﻿
+using System.Runtime.CompilerServices;
 
-namespace TradeWeb.API.Infrastracture;
-
+namespace TradeWeb.Infrastructure.Helpers;
 public static class DateValidator
 {
     [MethodImpl(MethodImplOptions.AggressiveInlining)]

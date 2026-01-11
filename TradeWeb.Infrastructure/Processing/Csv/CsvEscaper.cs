@@ -1,7 +1,7 @@
 ﻿using System.Text;
 using System;
 
-namespace TradeWeb.API.Infrastracture;
+namespace TradeWeb.Infrastructure.Processing.Csv;
 
 public static class CsvEscaper
 {

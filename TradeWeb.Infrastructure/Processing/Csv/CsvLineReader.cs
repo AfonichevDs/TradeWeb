@@ -1,7 +1,7 @@
 ﻿using System.Buffers;
 using System.IO.Pipelines;
 
-namespace TradeWeb.API.Infrastracture;
+namespace TradeWeb.Infrastructure.Processing.Csv;
 
 public static class CsvLineReader
 {

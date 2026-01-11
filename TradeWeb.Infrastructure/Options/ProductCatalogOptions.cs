@@ -1,5 +1,4 @@
-﻿namespace TradeWeb.API.Options;
-
+﻿namespace TradeWeb.Infrastructure.Options;
 public class ProductCatalogOptions
 {
     public const string SectionName = "ProductCatalog";

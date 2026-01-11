@@ -1,13 +1,13 @@
-﻿using System.Buffers;
+﻿using Microsoft.Extensions.Logging;
+using System.Buffers;
 using System.Buffers.Text;
 using System.IO.Pipelines;
 using System.Text;
-using TradeWeb.API.Catalog;
-using TradeWeb.API.Infrastracture;
-using TradeWeb.API.Models;
+using TradeWeb.Application.Interfaces;
+using TradeWeb.Infrastructure.Helpers;
+using TradeWeb.Infrastructure.Processing.Csv;
 
-namespace TradeWeb.API.Services;
-
+namespace TradeWeb.Infrastructure.Processing;
 public sealed class TradeEnrichmentService : ITradeEnrichmentService
 {
     private static readonly byte[] OutputHeader = "date,productName,currency,price\n"u8.ToArray();
@@ -52,7 +52,7 @@ public sealed class TradeEnrichmentService : ITradeEnrichmentService
                     continue;
             }
 
-            if (!TrySplit4(trimmed.Span, out var f))    // f is a struct (OK in async)
+            if (!TrySplit4(trimmed.Span, out var f))
             {
                 LogInvalidRow(lineNo, "Wrong column count", trimmed.Span);
                 continue;

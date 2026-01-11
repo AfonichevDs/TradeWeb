@@ -1,14 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using TradeWeb.API.Services;
+using TradeWeb.Application.Commands.EnrichTrade;
 
 namespace TradeWeb.API.Controllers;
 
 [ApiController]
 [Route("api/v1")]
-public sealed class TradeEnrichmentController(ITradeEnrichmentService _enricher, ILogger<TradeEnrichmentController> _logger) : ControllerBase
+public sealed class TradeEnrichmentController(ILogger<TradeEnrichmentController> _logger, IMediator _mediator) : ControllerBase
 {
-
     [DisableRequestSizeLimit]
     [HttpPost("enrich")]
     [Consumes("text/csv")]
@@ -24,7 +24,10 @@ public sealed class TradeEnrichmentController(ITradeEnrichmentService _enricher,
         Response.ContentType = "text/csv; charset=utf-8";
 
         var sw = Stopwatch.StartNew();
-        await _enricher.EnrichAsync(Request.Body, Response.BodyWriter, ct);
+
+        await _mediator.Send(
+            new EnrichTradeCommand(Request.Body, Response.BodyWriter, HttpContext.TraceIdentifier),
+            ct);
 
         sw.Stop();
         _logger.LogInformation(

@@ -1,10 +1,14 @@
-﻿using System.Collections.Immutable;
+﻿using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Linq;
 using System.Text;
-using TradeWeb.API.Infrastracture;
+using TradeWeb.Application.Interfaces;
+using TradeWeb.Infrastructure.Processing.Csv;
 
-namespace TradeWeb.API.Catalog;
-
-public class ProductCatalog: IProductCatalog
+namespace TradeWeb.Infrastructure.Services;
+public class ProductCatalog : IProductCatalog
 {
     private readonly ImmutableDictionary<int, ReadOnlyMemory<byte>> _map;
     public ReadOnlyMemory<byte> MissingProductNameCsvUtf8 { get; }

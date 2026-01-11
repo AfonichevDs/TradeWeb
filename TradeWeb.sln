@@ -5,7 +5,13 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeWeb.API", "TradeWeb.API\TradeWeb.API.csproj", "{5CD9FE09-DB0E-48B4-879A-E7137DCCA349}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWeb.Tests", "TradeWeb.Tests\TradeWeb.Tests.csproj", "{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradeWeb.Tests", "TradeWeb.Tests\TradeWeb.Tests.csproj", "{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWeb.Application", "TradeWeb.Application\TradeWeb.Application.csproj", "{9E5F1340-5EB4-45E8-AAA0-6ED672D0CF4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWeb.Infrastructure", "TradeWeb.Infrastructure\TradeWeb.Infrastructure.csproj", "{FC2AC2A3-C9A1-4E43-A43F-3D03683DE3DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradeWeb.Domain", "TradeWeb.Domain\TradeWeb.Domain.csproj", "{CD46E02B-CB6E-4278-9167-EA8B6364D30A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{758B18B1-F5BA-4A30-99CB-1FCC02FCFB3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5F1340-5EB4-45E8-AAA0-6ED672D0CF4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5F1340-5EB4-45E8-AAA0-6ED672D0CF4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5F1340-5EB4-45E8-AAA0-6ED672D0CF4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5F1340-5EB4-45E8-AAA0-6ED672D0CF4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC2AC2A3-C9A1-4E43-A43F-3D03683DE3DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2AC2A3-C9A1-4E43-A43F-3D03683DE3DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2AC2A3-C9A1-4E43-A43F-3D03683DE3DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2AC2A3-C9A1-4E43-A43F-3D03683DE3DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD46E02B-CB6E-4278-9167-EA8B6364D30A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD46E02B-CB6E-4278-9167-EA8B6364D30A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD46E02B-CB6E-4278-9167-EA8B6364D30A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD46E02B-CB6E-4278-9167-EA8B6364D30A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

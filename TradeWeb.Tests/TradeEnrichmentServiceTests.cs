@@ -1,9 +1,10 @@
 ﻿using Microsoft.Extensions.Logging;
 using System.IO.Pipelines;
 using System.Text;
-using TradeWeb.API.Catalog;
-using TradeWeb.API.Infrastracture;
-using TradeWeb.API.Services;
+using TradeWeb.Application.Interfaces;
+using TradeWeb.Infrastructure.Helpers;
+using TradeWeb.Infrastructure.Processing;
+using TradeWeb.Infrastructure.Processing.Csv;
 
 namespace TradeWeb.Tests;
 public class TradeEnrichmentServiceTests

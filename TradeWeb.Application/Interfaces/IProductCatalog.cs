@@ -1,5 +1,4 @@
-﻿namespace TradeWeb.API.Catalog;
-
+﻿namespace TradeWeb.Application.Interfaces;
 public interface IProductCatalog
 {
     bool TryGetProductNameUtf8(int productId, out ReadOnlyMemory<byte> productNameCsvUtf8);

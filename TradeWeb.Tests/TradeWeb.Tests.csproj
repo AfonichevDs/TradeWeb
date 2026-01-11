@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TradeWeb.API\TradeWeb.API.csproj" />
+    <ProjectReference Include="..\TradeWeb.Infrastructure\TradeWeb.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

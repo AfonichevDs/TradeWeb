@@ -1,7 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace TradeWeb.API.Infrastracture;
-
+namespace TradeWeb.Infrastructure.Helpers;
 public sealed class MissingMappingTracker
 {
     private readonly ConcurrentDictionary<int, byte> _seen = new();
